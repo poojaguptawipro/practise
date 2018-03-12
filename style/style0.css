@@ -1,0 +1,70 @@
+body{
+  background:#FAFAFA;
+  text-align: center;
+}
+/*this is for the card which is used in the modulesListComponent*/
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 430px;
+  margin: 1rem;
+  position: relative;
+  width: auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.innerCard {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 360px;
+  margin: 1rem;
+  position: relative;
+  width: auto;
+  clear: both;
+
+}
+/*this is for child1 card*/
+.card1 {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 420px;
+  margin: 1rem;
+  padding-top: 20px;
+  position: relative;
+  width: 1200px;
+  clear: both;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/*styling of table in moduleListComponent*/
+.tableStyle{
+table-layout: inherit;
+padding-top: 56px;
+clear: float;
+}
+
+/*this is for the styling of div of child1*/
+.child1DivStyling{
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+}
+/*for the buttons of the child1*/
+.childButton{
+float: right;
+}
+/*for the title of the table*/
+.tableTitle{
+  float: left;
+  font-size: 25px;
+}
+
+.iconMls{
+  float: right;
+  padding-top: 5px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
